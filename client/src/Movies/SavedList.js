@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import { NavLink, Link } from 'react-router-dom';
 
 function SavedList({ list }) {
@@ -24,3 +24,5 @@ function SavedList({ list }) {
 }
 
 export default SavedList;
+
+
